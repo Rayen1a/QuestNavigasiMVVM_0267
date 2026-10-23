@@ -42,3 +42,8 @@ fun TampilData(
                 colors = TopAppBarDefaults.mediumTopAppBarColors(colorResource(id = R.color.teal_700))
             )
         }){ isiRuang ->
+        Column(modifier = Modifier
+            .padding(isiRuang)
+            .fillMaxWidth(),
+            verticalArrangement = Arrangement.SpaceBetween
+        ) {
