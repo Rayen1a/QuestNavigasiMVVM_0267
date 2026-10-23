@@ -27,3 +27,9 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import com.example.questnavigasimvvm_0267.R
 
+@OptIn(ExperimentalMaterial3Api::class)
+@Composable
+fun FormIsian(
+    jenisK:List<String> = listOf("laki - laki", "perempuan"),
+    OnSubmitBtnClick : () -> Unit
+){
