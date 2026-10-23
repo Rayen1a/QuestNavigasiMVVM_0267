@@ -11,3 +11,8 @@ import androidx.navigation.compose.rememberNavController
 import com.example.questnavigasimvvm_0267.view.FormIsian
 import com.example.questnavigasimvvm_0267.view.TampilData
 
+enum class Navigasi {
+    FormulirSaya,
+    Detail
+}
+
